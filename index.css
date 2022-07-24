@@ -60,9 +60,9 @@ bbb {
   }
   
   .html {width: 5%; background-color: #e50f00;}
-  .css {width: 5%; background-color: #28a374;}
-  .js {width: 6%; background-color: #e50f00;}
-  .php {width: 6%; background-color: #28a374;}
+  .css {width: 5%; background-color: #e50f00;}
+  .js {width: 6%; background-color: #ff3794;}
+  .php {width: 6%; background-color: #ff3794;}
 
   .eee {
     margin: 0 10;
