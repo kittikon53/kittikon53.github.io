@@ -1,0 +1,20 @@
+
+<ul *ngFor="let i of items;  ">
+    {{ i.name }} 
+    Quantity ({{ i.quantity }})
+    {{ i.price * i.quantity| currency: "THB " }}
+    <button mat-raised-button color="accent" 
+        (click)="delete(i)">
+        <mat-icon>delete_forever</mat-icon>
+        delete</button>
+</ul>
+<p>{{ totalprice | currency: " THB " }}</p>
+<button mat-raised-button color="primary">
+        <mat-icon>assignment_turned_in</mat-icon>
+        Checkout
+</button>
+<button mat-raised-button color="accent"
+        (click)="deleteCart()">
+        <mat-icon>delete_outline</mat-icon> 
+        ClearCart
+</button>
